@@ -1,64 +1,45 @@
-# Aim: Basic Charts And Visual Encoding
+# Experiment-17: Basic Charts and Visual Encoding
+# Aim:
+To understand and implement different types of data visualization techniques using Python libraries such
+as Matplotlib, Seaborn, and Pandas.
 
-# THEORY:
-Data visualization is the graphical representation of data to understand patterns, trends, and relationships. In Python, visualization is commonly performed using libraries like pandas, matplotlib, seaborn, and numpy.
-* pandas is used for data handling and creating DataFrames.
-* matplotlib is used for basic plotting like line charts, bar charts, histograms, and scatter plots.
-* seaborn is used for advanced and more visually appealing statistical plots.
-* numpy is used for numerical calculations like mean.
-  
-### FUNCTIONS AND COMMANDS USED:
-
+# Theory:
+Data visualization is the graphical representation of information and data.
+It helps in understanding patterns, trends, and relationships in datasets.
+1. Matplotlib - Matplotlib is a powerful Python library used for creating static, animated, and interactive visualizations.
+2. Seaborn - Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive and informative statistical graphics.
+3. Pandas - Pandas is used for data manipulation and analysis. It provides DataFrame structures which are useful for handling datasets.
+## Types of Graphs Used:
+1).Line Chart - Used to show trends over time.Displays continuous data.
+2).Bar Chart - Used for comparison between categories.
+3).Histogram - Shows distribution of numerical data.
+4).Scatter Plot - Displays relationship between two variables.
+## Commands and Code Explanation
 1. Importing Libraries
-- import pandas as pd → Used for data manipulation and DataFrame creation.
-- import matplotlib.pyplot as plt → Used for plotting graphs.
-- import seaborn as sns → Used for advanced data visualization.
-- import numpy as np → Used for numerical operations (like mean).
-2. Data Creation
-- pd.DataFrame(data) → Creates a DataFrame from dictionary data.
-3. Line Plot
-- plt.plot(x, y) → Creates a basic line chart.
-- plt.figure(figsize=(w,h)) → Sets figure size.
-- plt.xlabel() / plt.ylabel() → Labels axes.
-- plt.title() → Sets graph title.
-- plt.legend() → Displays legend.
-- plt.show() → Displays the plot.
+- matplotlib.pyplot: Used for plotting graphs.
+- seaborn: For advanced statistical plots.
+- pandas: For handling datasets.
+- numpy: For numerical operations like mean calculation.
+2. Creating Dataset
+- Dictionary is converted into a DataFrame.
+- Each key represents a column.
+3. Line Chart
+- marker highlights data points.
 4. Bar Chart
-- plt.bar(x, y) → Creates a bar graph.
-- plt.text() → Adds labels on bars (used for advanced bar graph).
-- plt.grid() → Adds grid lines.
-5. Histogram
-- plt.hist(data, bins=) → Shows distribution of data.
-- edgecolor → Adds border to bars.
-- alpha → Controls transparency.
-- np.mean() → Calculates mean value.
-- plt.axvline() → Draws a vertical line (used to show mean).
-6. Scatter Plot
-- plt.scatter(x, y) → Shows relationship between variables.
-7. Seaborn Visualizations
-- sns.lineplot() → Advanced line graph.
-- sns.barplot() → Advanced bar chart.
-- sns.histplot() → Histogram using seaborn.
-- sns.scatterplot() → Scatter plot using seaborn.
-8. Additional Concepts
-- Conditional Visualization → Coloring points based on category (Pass/Fail).
-- Annotations → Displaying values on bar charts.
-- Multiple DataFrames → Working with more than one dataset.
+- Used for comparison.
+5. Advanced Bar Chart (with Labels)
+- Displays values on top of each bar.
+6. Histogram
+- bins controls number of intervals.
+7. Histogram with Mean Line
+- axvline() - draws a vertical line showing mean.
+8. Scatter Plot
+- Shows relationship between study time and marks.
+9. Seaborn Line Plot
+- Cleaner and more attractive than Matplotlib.
 
-# GRAPHS CREATED IN THIS EXPERIMENT:
-* Line Chart (Study Hours Trend)
-* Advanced Line Chart (Study Hours vs Marks)
-* Bar Chart (Marks per Day)
-* Advanced Bar Chart (with value labels)
-* Histogram (Marks Distribution)
-* Histogram with Mean Line
-* Scatter Plot (Study Hours vs Marks)
-* Conditional Scatter Plot (Pass/Fail)
-* Seaborn Line Plot (Sales Trend)
-* Seaborn Bar Plot (Profit Analysis)
-* Seaborn Histogram (Sales Distribution)
-* Seaborn Scatter Plot (Sales vs Profit)
-
-# CONCLUSION:
-
-Data visualization using Python helps in understanding data easily through graphical representation. Using libraries like matplotlib and seaborn, we can analyze trends, distributions, and relationships effectively. This experiment demonstrates how different types of graphs can be used to extract meaningful insights from data.
+# Conclusion:
+In this experiment, various data visualization techniques were successfully implemented using Matplotlib and Seaborn.
+Different types of graphs such as line charts, bar charts, histograms, and scatter plots were created to represent data effectively. 
+These visualizations help in better understanding of trends, comparisons, and relationships within the dataset.
+Overall, the experiment demonstrates the importance of visual encoding in data analysis.
