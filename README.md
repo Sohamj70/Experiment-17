@@ -10,40 +10,40 @@ Data visualization is the graphical representation of data to understand pattern
 ### FUNCTIONS AND COMMANDS USED:
 
 1. Importing Libraries
-import pandas as pd → Used for data manipulation and DataFrame creation.
-import matplotlib.pyplot as plt → Used for plotting graphs.
-import seaborn as sns → Used for advanced data visualization.
-import numpy as np → Used for numerical operations (like mean).
+- import pandas as pd → Used for data manipulation and DataFrame creation.
+- import matplotlib.pyplot as plt → Used for plotting graphs.
+- import seaborn as sns → Used for advanced data visualization.
+- import numpy as np → Used for numerical operations (like mean).
 2. Data Creation
-pd.DataFrame(data) → Creates a DataFrame from dictionary data.
+- pd.DataFrame(data) → Creates a DataFrame from dictionary data.
 3. Line Plot
-plt.plot(x, y) → Creates a basic line chart.
-plt.figure(figsize=(w,h)) → Sets figure size.
-plt.xlabel() / plt.ylabel() → Labels axes.
-plt.title() → Sets graph title.
-plt.legend() → Displays legend.
-plt.show() → Displays the plot.
+- plt.plot(x, y) → Creates a basic line chart.
+- plt.figure(figsize=(w,h)) → Sets figure size.
+- plt.xlabel() / plt.ylabel() → Labels axes.
+- plt.title() → Sets graph title.
+- plt.legend() → Displays legend.
+- plt.show() → Displays the plot.
 4. Bar Chart
-plt.bar(x, y) → Creates a bar graph.
-plt.text() → Adds labels on bars (used for advanced bar graph).
-plt.grid() → Adds grid lines.
+- plt.bar(x, y) → Creates a bar graph.
+- plt.text() → Adds labels on bars (used for advanced bar graph).
+- plt.grid() → Adds grid lines.
 5. Histogram
-plt.hist(data, bins=) → Shows distribution of data.
-edgecolor → Adds border to bars.
-alpha → Controls transparency.
-np.mean() → Calculates mean value.
-plt.axvline() → Draws a vertical line (used to show mean).
+- plt.hist(data, bins=) → Shows distribution of data.
+- edgecolor → Adds border to bars.
+- alpha → Controls transparency.
+- np.mean() → Calculates mean value.
+- plt.axvline() → Draws a vertical line (used to show mean).
 6. Scatter Plot
-plt.scatter(x, y) → Shows relationship between variables.
+- plt.scatter(x, y) → Shows relationship between variables.
 7. Seaborn Visualizations
-sns.lineplot() → Advanced line graph.
-sns.barplot() → Advanced bar chart.
-sns.histplot() → Histogram using seaborn.
-sns.scatterplot() → Scatter plot using seaborn.
+- sns.lineplot() → Advanced line graph.
+- sns.barplot() → Advanced bar chart.
+- sns.histplot() → Histogram using seaborn.
+- sns.scatterplot() → Scatter plot using seaborn.
 8. Additional Concepts
-Conditional Visualization → Coloring points based on category (Pass/Fail).
-Annotations → Displaying values on bar charts.
-Multiple DataFrames → Working with more than one dataset.
+- Conditional Visualization → Coloring points based on category (Pass/Fail).
+- Annotations → Displaying values on bar charts.
+- Multiple DataFrames → Working with more than one dataset.
 
 # GRAPHS CREATED IN THIS EXPERIMENT:
 * Line Chart (Study Hours Trend)
