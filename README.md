@@ -1,4 +1,4 @@
-# Aim: 
+# Aim: Basic Charts And Visual Encoding
 
 # THEORY:
 Data visualization is the graphical representation of data to understand patterns, trends, and relationships. In Python, visualization is commonly performed using libraries like pandas, matplotlib, seaborn, and numpy.
